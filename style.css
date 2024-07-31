@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu ul {
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+  
+  
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.all{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9b116;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+  
+}
+.logo{
+    font-size: 20px;
+    font-family: "Playwrite FR Moderne", cursive;
+}
+/* nav bar end */
+/* hero section starts */
+.hero-section{
+  text-align: center;
+  background-image: url(img/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  color: white;
+}
+.hero-section button{
+    margin-top: 40px;
+    width: 180px;
+    font-size: 15px;
+    padding: 18px;
+    background-color: #f9b116;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    transition: .7s;
+}
+.hero-section button:hover{
+    background-color: white;
+    color: black;
+    transition: .7s;
+}
+.hero-section h1 {
+    font-family: "Playwrite FR Moderne", cursive;
+    margin-bottom: 40px; 
+}
+.hero-section p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+/* service section start */
+
+.service h1{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+
+}
+/* service starts */
+
+.image{
+    text-align: center;
+    background-color: #f9b116;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    transition: .8s;
+}
+   
+.btn{
+    text-align: center;
+}
+.all-service{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    margin-left: 40px  ;
+    margin-right: 40px;
+    margin-top: 40px;
+   
+}
+.service h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ .btn button{
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:  Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: .8s;
+}
+.btn button:hover{
+    background-color: #f9b116;
+    transition: .8s;
+}
+.second button{
+    background-color: #f9b116;
+}
+.second .image{
+    background-color: black;
+}
+.second .service{
+    margin-top: 20px;
+}
+.image:hover{
+    background-color: black;
+    transition: .8s;
+    margin-top: 20px;
+}
+/* about start */
+
+.about{
+    height: 400px;
+    width: 500px;
+    text-align: justify;
+    padding: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 30px;
+   
+    
+}
+.about p{
+    line-height: 1.4rem;
+  
+
+}
+.bg-image img{
+    height: 500px;
+    width: 550px;
+}
+.all-about{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.about-company h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+.review{
+    font-size: 23px;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.testimonial{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.testimonial h1{
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.testimonial p{
+  font-size: 15px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.full-testimonial{
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.t-side h1 {
+    font-family: "Josefin Sans", sans-serif;
+}
+.t-side{
+    margin-top: 20px;
+}
+.t-side h6{
+    font-size: 55px;
+    color: #f9b116;
+}
+.t-side p{
+    font-family: "Josefin Sans", sans-serif;
+}
+.t-img img{
+    width: 200px;
+    border: 2px solid #f9b116;
+    border-radius: 50%;
+    margin-left: -20px;
+}
+.last-hero{
+    text-align: center;
+    background-image: url(img/back.jpg);
+    padding: 110px;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 60px;
+}
+.last-hero h1{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+.last-hero p{
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+.hero-btn button{
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9b116;
+    border-radius: 6px;
+    border: none;
+}
+.hero-btn .first{
+    color: white;
+    margin-right: 15px;
+    transition: .7s;
+}
+.hero-btn .first:hover{
+    background-color: white;
+    color: black;
+    transition: .7s;
+}
+/* from start */
+.finish-from h1{
+   margin-left: 80px;
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.finish-from input {
+    margin-left:80px;
+    width: 450px;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 17px;
+    border: 1px solid rgb(3, 3, 90);
+}
+.finish-from .th-btn input{
+    padding: 40px;
+}
+.last-btn{
+    padding: 18px;
+    background-color: #f9b116;
+    margin-top: 25px;
+    margin-left: 80px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.map{
+    margin-top: 30px;
+    border: 2px solid black;
+}
+.last-section{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+/* footer */
+.footer-one h2{
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 30px;
+}
+
+
+.footer-one ul li {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 6px;
+}
+.footer-one a{
+    text-decoration: none;
+    color: white;
+    transition: .7s;
+}
+.footer-one a:hover{
+    color: #f9b116;
+    transition: .7s;
+}
+/* footer 2 */
+.footer-two{
+    width: 220px;
+}
+.footer-two h2{
+    margin-bottom: 30px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.icon{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .7s;
+}
+.icon i:hover{
+    color: #f9b116;
+    transition: .7s;
+}
+.all-footer{
+    display: flex;
+    justify-content: space-between;   
+    background-color: #252525;
+    color: white;
+    padding: 90px;
+    padding-bottom: 110px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 50px;
+}
+.footer-three input{
+    font-family: "Josefin Sans", sans-serif;
+    padding: 15px;
+    width: 350px;
+    background-color: #252525;
+    margin-top: 30px;
+    border: 1px solid white;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 18px;
+}
+.footer-three button{
+    padding: 20px;
+    background-color: #f9b116;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    transition: .5s;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.footer-three button:hover{
+    cursor: pointer;
+    background-color: white;
+    transition: .7s;
+    color: black;
+}
+.fns-footer p{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: -40px;
+    color: white;
+}
